@@ -5164,7 +5164,8 @@ footer ul li + li {
 }
 
 .social-list {
-  margin-top: 20px;
+  margin-top: -70px;
+  float: left;
 }
 .social-list:before, .social-list:after {
   display: table;
@@ -5207,7 +5208,7 @@ footer ul li + li {
 }
 .copyright > .container {
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 45px;
 }
 
 /*========================================================
@@ -5436,7 +5437,7 @@ footer ul li + li {
 
 /* Fundo */
 #page {
-  background-image: url(/image/bg.jpg);
+  
 }
 .category_menu {
   background-color: #FFF;

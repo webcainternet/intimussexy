@@ -308,6 +308,8 @@
                                                     <?php } ?>
                                                 </div>
                                             <?php } ?>
+
+                                            <?php include $_SERVER['DOCUMENT_ROOT'] . '/catalog/view/theme/theme613/parcelamento.php'; ?>
                                         </div>
                                         <div class="rating">
                                             <?php for ($i = 1; $i <= 5; $i++) { ?>

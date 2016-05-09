@@ -374,6 +374,8 @@
                                                                     <?php } ?>
                                                                 </div>
                                                             <?php } ?>
+
+                                                            <?php include $_SERVER['DOCUMENT_ROOT'] . '/catalog/view/theme/theme613/parcelamento.php'; ?>
                                                         </div>
                                                         <div class="rating">
                                                             <?php for ($i = 1; $i <= 5; $i++) { ?>
@@ -463,6 +465,9 @@
                                                     <?php } ?>
                                                 </div>
                                             <?php } ?>
+
+                                            <?php include $_SERVER['DOCUMENT_ROOT'] . '/catalog/view/theme/theme613/parcelamento.php'; ?>
+
                                             <div class="name">
                                                 <a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a>
                                             </div>
@@ -816,6 +821,8 @@
                                                                     <?php } ?>
                                                                 </div>
                                                             <?php } ?>
+
+                                                            <?php include $_SERVER['DOCUMENT_ROOT'] . '/catalog/view/theme/theme613/parcelamento.php'; ?>
                                                         </div>
                                                         <div class="rating">
                                                             <?php for ($i = 1; $i <= 5; $i++) { ?>
@@ -905,6 +912,9 @@
                                                     <?php } ?>
                                                 </div>
                                             <?php } ?>
+
+                                            <?php include $_SERVER['DOCUMENT_ROOT'] . '/catalog/view/theme/theme613/parcelamento.php'; ?>
+
                                             <div class="name">
                                                 <a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a>
                                             </div>
@@ -1257,6 +1267,8 @@
                                                                     <?php } ?>
                                                                 </div>
                                                             <?php } ?>
+
+                                                            <?php include $_SERVER['DOCUMENT_ROOT'] . '/catalog/view/theme/theme613/parcelamento.php'; ?>
                                                         </div>
                                                         <div class="rating">
                                                             <?php for ($i = 1; $i <= 5; $i++) { ?>
@@ -1346,6 +1358,9 @@
                                                     <?php } ?>
                                                 </div>
                                             <?php } ?>
+
+                                            <?php include $_SERVER['DOCUMENT_ROOT'] . '/catalog/view/theme/theme613/parcelamento.php'; ?>
+
                                             <div class="name">
                                                 <a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a>
                                             </div>
@@ -1698,6 +1713,8 @@
                                                                     <?php } ?>
                                                                 </div>
                                                             <?php } ?>
+
+                                                            <?php include $_SERVER['DOCUMENT_ROOT'] . '/catalog/view/theme/theme613/parcelamento.php'; ?>
                                                         </div>
                                                         <div class="rating">
                                                             <?php for ($i = 1; $i <= 5; $i++) { ?>
@@ -1787,6 +1804,8 @@
                                                     <?php } ?>
                                                 </div>
                                             <?php } ?>
+
+                                            <?php include $_SERVER['DOCUMENT_ROOT'] . '/catalog/view/theme/theme613/parcelamento.php'; ?>
                                             <div class="name">
                                                 <a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a>
                                             </div>

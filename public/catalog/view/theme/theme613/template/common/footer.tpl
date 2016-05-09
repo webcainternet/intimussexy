@@ -47,6 +47,19 @@
 		</div>
         <div class="col-xs-6 col-sm-12 col-md-4">
             <div class="footer_box">
+
+
+            	<h5>Formas de Pagamento</h5>
+				<ul class="list-unstyled">
+				<li><a>Cartões de Crédito</a></li>
+				<li><img src="/image/credito.png"></li>
+				<li><a>Cartões de Débito</a></li>
+				<li><img src="/image/debito.png"></li>
+				<li><a>Outros</a></li>
+				<li><img src="/image/boleto.png"></li>
+				</ul>
+
+<?php /*
                 <h5><?php echo $text_contact; ?></h5>
                 <ul class="list-unstyled contacts">
                     <li class="material-icons-location_on"><?php echo $address;?></li>
@@ -56,17 +69,27 @@
                         <a href='mailto:<?php echo $mail;?>'><?php echo $mail;?></a></li>
                     <li class="material-icons-schedule"><?php echo $open;?></li>
                 </ul>
-
+*/ ?>
             </div>
-            <?php echo $tm_social_list;?>
         </div>
+
+        <?php echo $tm_social_list;?>
 	</div>
 
   </div>
 	<div class="copyright">
 		<div class="container">
-			<?php echo $powered; ?><!-- [[%FOOTER_LINK]] -->
-		</div>
+			<div style="width: 50%; float: left;">
+				<?php echo $powered; ?><!-- [[%FOOTER_LINK]] -->
+			</div>
+
+			<div style="width: 50%; float: left; text-align: right;">
+				<a href="https://ssl.comodo.com" target="_blank">
+					<img src="https://ssl.comodo.com/images/comodo_secure_seal_76x26_transp.png" alt="SSL" width="76" height="26" style="border: 0px;">
+				<span style="font-weight:bold; font-size:7pt">SSL</span></a>
+			</div>
+		</div> 
+
 	</div>
 </footer>
 <script src="catalog/view/theme/<?php echo $theme_path; ?>/js/livesearch.js" type="text/javascript"></script>
