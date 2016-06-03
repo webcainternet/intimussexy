@@ -111,72 +111,6 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 
 
 
-                        <style type="text/css">
-                            .menutopocat {
-                                float: left !important;
-                                width: 20%;
-                                color: #EEE;
-                                text-align: left;
-                            }
-                            .menutopocat ul {
-                                list-style-type: none;
-                                text-align: left;
-                                width: 100%;
-                                padding: 0px;
-                            }
-                        </style>
-
-                        <div class="clearfix"></div>
-                            <div class="float-box" style="text-align: left;">
-                                <div class="menutopocat">
-                                    <span style="font-weight: bold;">Livros & DVDs</span>
-                                    <ul>
-                                        <li>Livros</li>
-                                        <li>DVDs</li>
-                                    </ul>
-                                </div>
-
-                                <div class="menutopocat">
-                                    <span style="font-weight: bold;">Masturbadores</span>
-                                    <ul>
-                                        <li>Item 1</li>
-                                        <li>Item 1</li>
-                                        <li>Item 1</li>
-                                        <li>Item 1</li>
-                                    </ul>
-                                </div>
-
-                                <div class="menutopocat">
-                                    <span style="font-weight: bold;">Pompoarismo</span>
-                                    <ul>
-                                        <li>Item 1</li>
-                                        <li>Item 1</li>
-                                        <li>Item 1</li>
-                                        <li>Item 1</li>
-                                    </ul>
-                                </div>
-
-                                <div class="menutopocat">
-                                    <span style="font-weight: bold;">Sado</span>
-                                    <ul>
-                                        <li>Item 1</li>
-                                        <li>Item 1</li>
-                                        <li>Item 1</li>
-                                        <li>Item 1</li>
-                                    </ul>
-                                </div>
-
-                                <div class="menutopocat">
-                                    <span style="font-weight: bold;">&nbsp;</span>
-                                    <ul>
-                                        <li>Item 1</li>
-                                        <li>Item 1</li>
-                                        <li>Item 1</li>
-                                        <li>Item 1</li>
-                                    </ul>
-                                </div>
-                            </div>
-
 
 
                     <div class="clearfix"></div>
@@ -265,12 +199,20 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
                             </li>
                         </ul>
                     </nav>
+
+                    <div style="margin-top: 15px;">
+                        <div style="display: inline-block; width: 45%; text-align: center;" class="phone"><i class="fa fa-truck" aria-hidden="true"></i>Entregamos para todo o Brasil</div>
+                        <div style="display: inline-block; width: 45%; text-align: center;" class="phone"><i class="fa fa-credit-card" aria-hidden="true"></i>
+Parcelamos em até 12x</div>
+                    </div>
+
+                    <?php echo $search; ?>
                 </div>
 
             </div>
             <div class="row">
                 <div class="col-sm-9 col-sm-offset-3">
-                    <?php echo $search; ?>
+                    
                 </div>
             </div>
         </div>

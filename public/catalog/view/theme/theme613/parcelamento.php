@@ -1,4 +1,7 @@
 <?php
+
+echo "<div>Parcelamos em até 12x</div>";
+
  /*
    Configuracoes do sistema de parcelamento
    ----------------------------------------
@@ -38,7 +41,11 @@
  }
  
  // Exibe as frases de parcelamento
- echo '<br />ou <span style="font-size: 22px; font-weight: bold; color: #FA295C;">' . $qtd_parcelas . 'x</span> de <span style="font-size: 22px; font-weight: bold; color: #FA295C;">' . $moeda_da_loja . number_format($valor_parcela, 2, ',', '.');
- if ($juros == 0) { echo '</span> s/ juros'; } else { echo '</span> com juros de ' . $juros . '% ao m&ecirc;s'; }
+   //echo '<br />ou <span style="font-size: 22px; font-weight: bold; color: #FA295C;">' . $qtd_parcelas . 'x</span> de <span style="font-size: 22px; font-weight: bold; color: #FA295C;">' . $moeda_da_loja . number_format($valor_parcela, 2, ',', '.');
+ if ($juros == 0) { 
+   //echo '</span> s/ juros'; 
+ } else { 
+   //echo '</span> com juros de ' . $juros . '% ao m&ecirc;s'; 
+ }
  
  ?>

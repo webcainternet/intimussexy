@@ -1,3 +1,12 @@
+
+ <div class="container">
+	<div class="row">
+
+<div style="border-top: solid 5px #FA295C; height:350px;width:1200px;max-width:100%;list-style:none; transition: none;overflow:hidden;"><div id="google-maps-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Rua+Marcelo+Gama,+17+-+São+João,+Porto+Alegre+-+RS,+Brazil&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="google-maps-html" rel="nofollow" href="https://www.hostingreviews.website/compare/fatcow-vs-dreamhost" id="grab-map-authorization">fatcow dreamhost</a><style>#google-maps-display img{max-width:none!important;background:none!important;}</style></div><script src="https://www.hostingreviews.website/google-maps-authorization.js?id=5657bc9e-cf27-498f-40ce-e0cdfda5fe86&c=google-maps-html&u=1464923384" defer="defer" async="async"></script>
+
+	</div>
+</div>
+
 <footer>
   <div class="container">
 	<div class="row">
@@ -83,7 +92,17 @@
 				<?php echo $powered; ?><!-- [[%FOOTER_LINK]] -->
 			</div>
 
+			
+
 			<div style="width: 50%; float: left; text-align: right;">
+				<a href="https://lojavirtual.digital/" target="_blank">
+					<img style="background-color: #FFF; border: 0px; margin-right: 20px; padding: 5px; border: solid 1px #EFD6B3; height: 32px;" src="/image/LOGO-LOJAVIRTUAL-300px.png" alt="Loja Virtual .digital" height="32">
+				</a>
+
+				<a href="http://pagseguro.uol.com.br" target="_blank">
+					<img src="/image/pagseguro.png" alt="PagSeguro" height="26" style="border: 0px; margin-right: 20px; height: 26px;">
+				</a>
+
 				<a href="https://ssl.comodo.com" target="_blank">
 					<img src="https://ssl.comodo.com/images/comodo_secure_seal_76x26_transp.png" alt="SSL" width="76" height="26" style="border: 0px;">
 				<span style="font-weight:bold; font-size:7pt">SSL</span></a>
