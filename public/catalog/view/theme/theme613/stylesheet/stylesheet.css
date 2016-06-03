@@ -5454,3 +5454,7 @@ footer ul li + li {
   background-color: #FFF; 
 }
 /* FIM Fundo */
+
+.quickview {
+  display: none !important;
+}
