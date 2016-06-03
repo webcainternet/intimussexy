@@ -123,17 +123,20 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
                             <?php echo $cart; ?>
                         </div>
                         <div>
-                            <a href="<?php echo $wishlist; ?>"
+                            <a href="#"
                                title="<?php echo $text_wishlist; ?>" class="item-btn">
-                                <i class="material-icons-favorite_border"></i>
-                                <strong>Lista de desejo</strong>
-                                <span id="wishlist-total"><?php echo $text_wishlist2?></span>
+                                <i class="fa fa-comments" aria-hidden="true"></i>
+                                <strong>(51) 8961-8558</strong>
+                                <span>Via WhatsApp</span>
                             </a>
                         </div>
                         <div>
-                            <div class="phone"><i class="material-icons-local_phone"></i>
-                                <a href='callto:<?php echo $telephone;?>'><?php echo $telephone;?></a> </div>
-                            <p><?php echo $open?></p>
+                            <a href="callto:<?php echo $telephone;?>"
+                               title="<?php echo $text_wishlist; ?>" class="item-btn">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <strong><?php echo $telephone;?></strong>
+                                <span>Atendimento</span>
+                            </a>
                         </div>
                     </div>
 
@@ -200,7 +203,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
                         </ul>
                     </nav>
 
-                    <div style="margin-top: 15px;">
+                    <div style="margin-top: 15px; border-top: solid 1px; padding-top: 10px;">
                         <div style="display: inline-block; width: 45%; text-align: center;" class="phone"><i class="fa fa-truck" aria-hidden="true"></i>Entregamos para todo o Brasil</div>
                         <div style="display: inline-block; width: 45%; text-align: center;" class="phone"><i class="fa fa-credit-card" aria-hidden="true"></i>
 Parcelamos em até 12x</div>
