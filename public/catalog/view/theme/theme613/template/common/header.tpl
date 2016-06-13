@@ -206,7 +206,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
                     <div style="margin-top: 15px; border-top: solid 1px; padding-top: 10px;">
                         <div style="display: inline-block; width: 45%; text-align: center;" class="phone"><i class="fa fa-truck" aria-hidden="true"></i>Entregamos para todo o Brasil</div>
                         <div style="display: inline-block; width: 45%; text-align: center;" class="phone"><i class="fa fa-credit-card" aria-hidden="true"></i>
-Parcelamos em até 12x</div>
+Parcelamos em até 18x</div>
                     </div>
 
                     <?php echo $search; ?>

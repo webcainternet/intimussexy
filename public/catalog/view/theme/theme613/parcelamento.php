@@ -1,6 +1,6 @@
 <?php
 
-echo "<div>Parcelamos em até 12x</div>";
+echo "<div>Parcelamos em até 18x</div>";
 
  /*
    Configuracoes do sistema de parcelamento
