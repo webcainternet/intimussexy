@@ -37,7 +37,7 @@
 		  <ul class="box-subcat">
 			<?php $i=0; foreach ($categories as $category) { $i++; ?>
 				<?php 
-			   $perLine = 4;
+			   $perLine = 3;
 			   $last_line = "";
 							$total = count($products);
 							$totModule = $total%$perLine;
@@ -53,7 +53,7 @@
 								$a='';
 							}
 						?>
-			<li class="col-sm-3  <?php echo $a. $last_line ;?>">
+			<li class="col-sm-4  <?php echo $a. $last_line ;?>">
                 <div class="thumb">
 				<?php if ($category['thumb']) { ?>
 					<div class="image"><a href="<?php echo $category['href']; ?>"><img src="<?php echo $category['thumb']; ?>" alt="<?php echo $category['name']; ?>" /></a></div>

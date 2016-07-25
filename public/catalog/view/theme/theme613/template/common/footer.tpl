@@ -1,10 +1,24 @@
 
- <div class="container">
-	<div class="row">
+<div style="background-color: #e1e2dd; ">
 
-<div style="border-top: solid 5px #FA295C; height:350px;width:1200px;max-width:100%;list-style:none; transition: none;overflow:hidden;"><div id="google-maps-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Rua+Marcelo+Gama,+17+-+São+João,+Porto+Alegre+-+RS,+Brazil&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="google-maps-html" rel="nofollow" href="https://www.hostingreviews.website/compare/fatcow-vs-dreamhost" id="grab-map-authorization">fatcow dreamhost</a><style>#google-maps-display img{max-width:none!important;background:none!important;}</style></div><script src="https://www.hostingreviews.website/google-maps-authorization.js?id=5657bc9e-cf27-498f-40ce-e0cdfda5fe86&c=google-maps-html&u=1464923384" defer="defer" async="async"></script>
-
+	<div style="margin: auto; padding: 30px; width:1170px;max-width:100%;list-style:none; transition: none;overflow:hidden;">
+		<div style="width: 33.33%; float: left;">
+			<i style="font-size: 36px; float: left; position: absolute; margin-top: 12px;" class="fa fa-thumbs-up" aria-hidden="true"></i>
+			<div style="float: left; margin-left: 50px; width: 100%; font-weight: bold;">Compra 100% segura</div>
+			<div style="float: left; margin-left: 50px; width: 100%;">Qualidade no atendimento</div>
+		</div>
+		<div style="width: 33.33%; float: left;">
+			<i style="font-size: 36px; float: left; position: absolute; margin-top: 12px;" class="fa fa-archive" aria-hidden="true"></i>
+			<div style="float: left; margin-left: 50px; width: 100%; font-weight: bold;">Embalagens discretas</div>
+			<div style="float: left; margin-left: 50px; width: 100%;">Privacidade 100% garantida</div>
+		</div>
+		<div style="width: 33.33%; float: left;">
+			<i style="font-size: 36px; float: left; position: absolute; margin-top: 12px;" class="fa fa-truck" aria-hidden="true"></i>
+			<div style="float: left; margin-left: 50px; width: 100%; font-weight: bold;">Onde estamos?</div>
+			<div style="float: left; margin-left: 50px; width: 100%;">Porto Alegre - RS - Caixa Postal: 18489 - CEP: 90230-970</div>
+		</div>
 	</div>
+
 </div>
 
 <footer>
@@ -22,7 +36,7 @@
 			</div>
 			<?php } ?>
 		</div>
-		<div class="col-xs-6 col-sm-3 col-md-2">
+		<div class="col-xs-6 col-sm-3 col-md-2" style="max-width: 168px;">
 			<div class="footer_box">
 				<h5><?php echo $text_service; ?></h5>
 				<ul class="list-unstyled">
@@ -43,7 +57,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="col-xs-6 col-sm-3 col-md-2">
+		<div class="col-xs-6 col-sm-3 col-md-2" style="max-width: 168px;">
 			<div class="footer_box">
 				<h5><?php echo $text_account; ?></h5>
 				<ul class="list-unstyled">
@@ -54,7 +68,7 @@
 				</ul>
 			</div>
 		</div>
-        <div class="col-xs-6 col-sm-12 col-md-4">
+        <div class="col-xs-6 col-sm-12 col-md-4" style="min-width: 460px;">
             <div class="footer_box">
 
 
@@ -92,12 +106,13 @@
 				<?php echo $powered; ?><!-- [[%FOOTER_LINK]] -->
 			</div>
 
-			
+
 
 			<div style="width: 50%; float: left; text-align: right;">
+				<?php /*
 				<a href="https://lojavirtual.digital/" target="_blank">
 					<img style="background-color: #FFF; border: 0px; margin-right: 20px; padding: 5px; border: solid 1px #EFD6B3; height: 32px;" src="/image/LOGO-LOJAVIRTUAL-300px.png" alt="Loja Virtual .digital" height="32">
-				</a>
+				</a> */ ?>
 
 				<a href="http://pagseguro.uol.com.br" target="_blank">
 					<img src="/image/pagseguro.png" alt="PagSeguro" height="26" style="border: 0px; margin-right: 20px; height: 26px;">
@@ -107,7 +122,7 @@
 					<img src="https://ssl.comodo.com/images/comodo_secure_seal_76x26_transp.png" alt="SSL" width="76" height="26" style="border: 0px;">
 				<span style="font-weight:bold; font-size:7pt">SSL</span></a>
 			</div>
-		</div> 
+		</div>
 
 	</div>
 </footer>
@@ -116,5 +131,7 @@
 </div>
 
 <div class="ajax-overlay"></div>
+
+<script src="https://lojavirtual.digital/lojavirtualfooter.js" type="text/javascript"></script>
 
 </body></html>

@@ -101,11 +101,11 @@
                                         <address>
                                             <?php echo $location['address']; ?>
                                         </address>
-                                        <?php if ($location['geocode']) { ?>
+                                        <?php /* if ($location['geocode']) { ?>
                                             <a href="https://maps.google.com/maps?q=<?php echo urlencode($location['geocode']); ?>&hl=en&t=m&z=15"
                                                target="_blank" class="btn btn-info"><i
                                                     class="fa fa-map-marker"></i> <?php echo $button_map; ?></a>
-                                        <?php } ?>
+                                        <?php } */ ?>
                                     </div>
                                     <div class="col-sm-3"><strong><?php echo $text_telephone; ?></strong><br>
                                         <?php echo $location['telephone']; ?><br/>

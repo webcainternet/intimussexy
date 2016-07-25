@@ -26,3 +26,6 @@ $_['text_tax']      = 'Ex Tax:';
 
 			$_['text_sale']      = 'Sale';
 			
+
+				$_['text_view']          = 'Ver promoções';
+

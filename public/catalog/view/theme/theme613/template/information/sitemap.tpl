@@ -17,7 +17,7 @@
 	  <h1><?php echo $heading_title; ?></h1>
 	  <div class="row">
 		<div class="col-sm-6">
-            <h5><?php echo $text_category?></h5>
+            <h5>Categorias</h5>
 		  <ul class="category-list">
 			<?php foreach ($categories as $category_1) { ?>
 			<li class="<?php if ($category_1['children']) echo 'ul-with-ul'?>"><a href="<?php echo $category_1['href']; ?>"><?php echo $category_1['name']; ?></a>
@@ -52,7 +52,7 @@
                     </ul>
                 </div>
                 <div class="col-xs-6">
-                    <h5><?php echo $text_pages;?></h5>
+                    <h5>Páginas</h5>
                     <ul>
                         <li><a href="<?php echo $special; ?>"><?php echo $text_special; ?></a></li>
                         <li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>

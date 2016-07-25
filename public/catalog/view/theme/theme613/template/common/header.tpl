@@ -73,6 +73,17 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 <!--End of Zopim Live Chat Script-->
 
     <?php echo $google_analytics; ?>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-79838839-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
     <link href="catalog/view/theme/<?php echo $theme_path; ?>/stylesheet/stylesheet.css" rel="stylesheet">
 </head>
 <body class="<?php echo $class; ?>">
@@ -99,8 +110,18 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
                     <?php echo $currency; ?>
                     <?php echo $language; ?>
                     <div class="top-links">
+                        <a href="https://www.facebook.com/curtaintimus" title="<?php echo $text_account; ?>"><i
+                                class="fa fa-facebook"></i>curtaintimus</a>
+
+                        <a href="https://plus.google.com/100525777783796120950/posts" title="<?php echo $text_account; ?>"><i
+                                class="fa fa-google-plus"></i>Google</a>
+
+                        <a href="https://www.youtube.com/channel/UCEcNao-Uf5J44clx4yWuWNQ" title="<?php echo $text_account; ?>"><i
+                                class="fa fa-youtube"></i>Youtube</a>
+
                         <a href="<?php echo $account; ?>" title="<?php echo $text_account; ?>"><i
                                 class="material-icons-person"></i><?php echo $text_account; ?></a>
+
                         <?php if ($logged) { ?>
                             <a href="<?php echo $logout; ?>"><i class="material-icons-lock_open"></i><?php echo $text_logout; ?></a>
                         <?php }else{?>
@@ -135,7 +156,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
                                title="<?php echo $text_wishlist; ?>" class="item-btn">
                                 <i class="fa fa-phone" aria-hidden="true"></i>
                                 <strong><?php echo $telephone;?></strong>
-                                <span>Atendimento</span>
+                                <span>Das 9h as 17h</span>
                             </a>
                         </div>
                     </div>
@@ -215,7 +236,7 @@ Parcelamos em até 18x</div>
             </div>
             <div class="row">
                 <div class="col-sm-9 col-sm-offset-3">
-                    
+
                 </div>
             </div>
         </div>
