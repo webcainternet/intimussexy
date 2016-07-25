@@ -798,7 +798,7 @@ header .logo {
 .item-btn span {
   display: block;
   font-size: 18px;
-  color: #777;
+  color: #fff;
   white-space: nowrap;
 }
 .item-btn:hover strong {
@@ -3384,10 +3384,6 @@ input[type="checkbox"][name="agree"] + label:before, input[type="checkbox"][name
   padding-right: 90px;
 }
 .newsletter-wrap button {
-  position: absolute;
-  right: 0;
-  top: 0;
-  bottom: 0;
   background: #191919;
   color: #FFF;
   text-transform: uppercase;
@@ -3495,7 +3491,7 @@ input[type="checkbox"][name="agree"] + label:before, input[type="checkbox"][name
   width: 50px;
   top: -2px;
   bottom: -2px;
-  background: #191919;
+  background: #fa295c;
   border-right: 2px solid #eeeeee;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
@@ -4237,8 +4233,8 @@ input[type="checkbox"][name="agree"] + label:before, input[type="checkbox"][name
   background: #f5f5f5;
 }
 .box-subcat li .name {
-  border-top: 1px solid #eeeeee;
-  padding: 10px 5px 0;
+  /* border-top: 1px solid #eeeeee;
+  padding: 10px 5px 0; */
 }
 .box-subcat li .name a {
   text-transform: capitalize;
@@ -5452,7 +5448,7 @@ footer ul li + li {
   background-color: #FFF;
 }
 .box-content {
-  /* background-color: #FFF; */
+  background-color: #FFF;
 }
 /* FIM Fundo */
 
