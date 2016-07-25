@@ -3601,7 +3601,7 @@ input[type="checkbox"][name="agree"] + label:before, input[type="checkbox"][name
   right: 0;
   bottom: 0;
   z-index: 10000;
-  background: rgba(244, 244, 244, 0.7);
+  background: rgba(0, 0, 0, 0.7);
   padding-top: 100px;
 }
 
@@ -3609,7 +3609,7 @@ input[type="checkbox"][name="agree"] + label:before, input[type="checkbox"][name
   position: relative;
   width: 571px;
   margin: 0 auto;
-  background-color: #FFF;
+  background-color: #111;
   background-repeat: no-repeat;
   border-radius: 3px;
   padding: 80px 70px 40px;
@@ -3634,6 +3634,7 @@ input[type="checkbox"][name="agree"] + label:before, input[type="checkbox"][name
 }
 .newsletter-popup h2 + p {
   margin: 18px 0 0;
+  color: #FFF;
 }
 .newsletter-popup .tm-login-form {
   position: relative;
@@ -5442,7 +5443,7 @@ footer ul li + li {
 
 /* Fundo */
 #page {
-  
+
 }
 .category_menu {
   background-color: #FFF;
@@ -5451,7 +5452,7 @@ footer ul li + li {
   background-color: #FFF;
 }
 .box-content {
-  background-color: #FFF; 
+  /* background-color: #FFF; */
 }
 /* FIM Fundo */
 
