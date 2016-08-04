@@ -5,6 +5,24 @@
     &nbsp;
 </div>
 
+<div style="padding-top: 20px;padding-left: 20px;margin-bottom: 30px;">
+    <div><img src="/image/logo_correios.png" width="110" style="width: 110px; margin-bottom: 10px;"></div>
+    <i style="font-size: 36px; float: left; position: absolute; margin-top: 12px;" class="fa fa-truck" aria-hidden="true"></i>
+    <div style="float: left; margin-left: 50px; width: 100%; font-weight: bold;">Rastreie seu pedido</div>
+    <div style="float: left; margin-left: 50px; width: 100%;">
+      <form method="POST" action="http://www2.correios.com.br/sistemas/rastreamento/resultado.cfm" target="_blank">
+        <input type="text" name="objetos" placeholder="ex: SF907800291BR" value="" style="width: 175px;">
+        <input type="submit" name="btnPesq" value="Buscar" style="background-color: #fa295c;
+                                                                  border: 0px;
+                                                                  color: #FFFFFF;
+                                                                  padding: 7px 15px;
+                                                                  margin-top: 5px;
+                                                                  margin-bottom: 15px;">
+      </form>
+    </div>
+    &nbsp;
+</div>
+
 
 <div id="tm-newsletter" class="box newsletter">
    <h3><?php echo $heading_title; ?></h3>

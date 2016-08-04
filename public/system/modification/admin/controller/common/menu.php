@@ -8,6 +8,9 @@ class ControllerCommonMenu extends Controller {
 		$data['text_attribute'] = $this->language->get('text_attribute');
 		$data['text_attribute_group'] = $this->language->get('text_attribute_group');
 		$data['text_backup'] = $this->language->get('text_backup');
+
+		$data['text_export_import'] = $this->language->get('text_export_import');
+			
 		$data['text_banner'] = $this->language->get('text_banner');
 		$data['text_catalog'] = $this->language->get('text_catalog');
 		$data['text_category'] = $this->language->get('text_category');
@@ -119,6 +122,9 @@ class ControllerCommonMenu extends Controller {
 		$data['attribute'] = $this->url->link('catalog/attribute', 'token=' . $this->session->data['token'], 'SSL');
 		$data['attribute_group'] = $this->url->link('catalog/attribute_group', 'token=' . $this->session->data['token'], 'SSL');
 		$data['backup'] = $this->url->link('tool/backup', 'token=' . $this->session->data['token'], 'SSL');
+
+		$data['export_import'] = $this->url->link('tool/export_import', 'token=' . $this->session->data['token'], (version_compare(PHP_VERSION, '2.2.0.0') >= 0) ? true : 'SSL');
+			
 		$data['banner'] = $this->url->link('design/banner', 'token=' . $this->session->data['token'], 'SSL');
 		$data['category'] = $this->url->link('catalog/category', 'token=' . $this->session->data['token'], 'SSL');
 		$data['country'] = $this->url->link('localisation/country', 'token=' . $this->session->data['token'], 'SSL');
