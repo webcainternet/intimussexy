@@ -4,7 +4,7 @@
 		<i class="material-icons-local_grocery_store"></i>
 		<strong><?php echo $text_shopping_cart; ?></strong>
 		<?php if (isset($text_items2)) { ?><span id="cart-total2" class="cart-total2"><?php echo $text_items2; ?></span><?php } ?>
-        <?php if (isset($text_items3)) { ?><span id="cart-total3" class="cart-total3"><?php echo $text_items3; ?></span><?php } ?>
+    <?php if (isset($text_items3)) { ?><span id="cart-total3" class="cart-total3"><?php echo $text_items3; ?></span><?php } ?>
 	</button>
   <ul class="pull-right toggle_cont">
 	<?php if ($products || $vouchers) { ?>
@@ -30,7 +30,7 @@
 <!--			--><?php //} ?>
 			<div> x <?php echo $product['quantity']; ?>  <span class="price-cart"><?php echo $product['total']; ?></span></div>
 			</td>
-		  
+
 		  <td class="text-right"></td>
 		  <td class="text-center"><button type="button" onclick="cart.remove('<?php echo $product['key']; ?>');" title="<?php echo $button_remove; ?>" class="btn btn-danger btn-xs"><i class="fa fa-times"></i></button></td>
 		</tr>

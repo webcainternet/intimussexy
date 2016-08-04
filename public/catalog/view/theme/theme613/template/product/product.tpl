@@ -430,6 +430,8 @@
                             <?php } ?>
                         </div>
 
+
+                        <?php if ($stock == 'Em estoque') { ?>
                         <!-- Add to cart form -->
                         <div class="form-group form-horizontal">
                             <div class="form-group">
@@ -446,9 +448,8 @@
                                             class="product-btn-add"><?php echo $button_cart; ?></button>
                                 </div>
                             </div>
-
-
                         </div>
+                        <?php } ?>
 
                         <ul class="product-buttons">
                             <li>
@@ -1122,6 +1123,8 @@
                     $('#cart-total').html(json['total']);
                     $('#cart-total2').html(json['total2']);
                     $('#cart > ul').load('index.php?route=common/cart/info ul li');
+
+                    window.location='index.php?route=checkout/cart';
                 }
                 timer = setTimeout(function () {
                     $('.alert').addClass('fadeOut');
@@ -1241,4 +1244,3 @@
 </script>
 
 <?php echo $footer; ?>
-

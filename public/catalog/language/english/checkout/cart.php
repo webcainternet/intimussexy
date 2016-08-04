@@ -2,6 +2,10 @@
 // Heading
 $_['heading_title']            = 'Shopping Cart';
 
+$_['text_items2']    = '%s items';
+$_['text_items3']    = '%s';
+$_['text_shopping_cart']    = 'Shopping Cart:';
+
 // Text
 $_['text_success']             = 'Success: You have added <a href="%s">%s</a> to your <a href="%s">shopping cart</a>!';
 $_['text_remove']              = 'Success: You have modified your shopping cart!';

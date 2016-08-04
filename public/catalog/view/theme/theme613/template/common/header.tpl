@@ -136,10 +136,10 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 
                     <div class="clearfix"></div>
                     <div class="float-box">
-                        <div>
+                        <?php /* <div>
                             <a class="header_checkout" href="<?php echo $checkout; ?>" title="<?php echo $text_checkout; ?>">
                                 <span><?php echo $text_checkout; ?></span></a>
-                        </div>
+                        </div> */ ?>
                         <div>
                             <?php echo $cart; ?>
                         </div>
@@ -155,8 +155,8 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
                             <a href="callto:<?php echo $telephone;?>"
                                title="<?php echo $text_wishlist; ?>" class="item-btn">
                                 <i class="fa fa-phone" aria-hidden="true"></i>
-                                <strong><?php echo $telephone;?></strong>
-                                <span>Das 9h as 17h</span>
+                                <strong><?php echo $telephone;?> (51) 8224-6291</strong>
+                                <span>Seg-Sex das 9h as 17h</span>
                             </a>
                         </div>
                     </div>

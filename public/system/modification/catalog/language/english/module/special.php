@@ -15,7 +15,7 @@
 				$_['text_product']          = 'Product {current} of {total} ';
 				$_['text_view']          = 'View all products';
 				
-$_['heading_title'] = 'Specials';
+$_['heading_title'] = 'Ofertas';
 
 // Text
 
@@ -28,4 +28,3 @@ $_['text_tax']      = 'Ex Tax:';
 			
 
 				$_['text_view']          = 'Ver promoções';
-

@@ -102,17 +102,20 @@
   </div>
 	<div class="copyright">
 		<div class="container">
-			<div style="width: 50%; float: left;">
+			<div style="width: 50%; float: left; color: #FFF;">
 				<?php echo $powered; ?><!-- [[%FOOTER_LINK]] -->
 			</div>
 
 
 
 			<div style="width: 50%; float: left; text-align: right;">
-				<?php /*
 				<a href="https://lojavirtual.digital/" target="_blank">
 					<img style="background-color: #FFF; border: 0px; margin-right: 20px; padding: 5px; border: solid 1px #EFD6B3; height: 32px;" src="/image/LOGO-LOJAVIRTUAL-300px.png" alt="Loja Virtual .digital" height="32">
-				</a> */ ?>
+				</a>
+
+				<a href="http://mercadolivre.com.br" target="_blank">
+					<img src="/image/mercadopago.png" alt="Mercado Pago" height="26" style="border: 0px; margin-right: 20px; height: 26px;">
+				</a>
 
 				<a href="http://pagseguro.uol.com.br" target="_blank">
 					<img src="/image/pagseguro.png" alt="PagSeguro" height="26" style="border: 0px; margin-right: 20px; height: 26px;">
@@ -132,6 +135,5 @@
 
 <div class="ajax-overlay"></div>
 
-<script src="https://lojavirtual.digital/lojavirtualfooter.js" type="text/javascript"></script>
 
 </body></html>

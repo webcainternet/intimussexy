@@ -1,7 +1,7 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'https://intimussexy.com.br/admin/');
-define('HTTP_CATALOG', 'https://intimussexy.com.br/');
+define('HTTP_SERVER', 'http://intimussexy.com.br/admin/');
+define('HTTP_CATALOG', 'http://intimussexy.com.br/');
 
 // HTTPS
 define('HTTPS_SERVER', 'https://intimussexy.com.br/admin/');

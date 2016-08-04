@@ -1,4 +1,14 @@
 <?php echo $header; ?>
+
+<style>
+h1:after {
+    margin: 20px 0 0px;
+}
+.checkout-cart #content h1, .account-wishlist #content h1, .product-compare #content h1 {
+    margin: 30px 0 0px;
+}
+</style>
+
 <div class="container">
     <?php if ($attention) { ?>
         <div class="alert alert-info"><i class="material-design-round52"></i> ' + json['info'] + '<button type="button" class="close material-design-close47"></button></div>
@@ -34,6 +44,12 @@
                     &nbsp;(<?php echo $weight; ?>)
                 <?php } ?>
             </h1>
+
+            <div class="buttons">
+                <div class="pull-right">
+                    <a href="<?php echo $continue; ?>" class="btn btn-default"><?php echo $button_shopping; ?> comprando</a>
+                </div>
+            </div>
 
             <div class="cart-wrapper">
                 <form class="shoping_cart" action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">

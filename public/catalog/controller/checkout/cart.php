@@ -336,6 +336,7 @@ class ControllerCheckoutCart extends Controller {
 				$this->cart->add($this->request->post['product_id'], $quantity, $option, $recurring_id);
 
 				$json['success'] = sprintf($this->language->get('text_success'), $this->url->link('product/product', 'product_id=' . $this->request->post['product_id']), $product_info['name'], $this->url->link('checkout/cart'));
+				$json['redirect'] = str_replace('&amp;', '&', $this->url->link('checkout/cart'));
 
 				unset($this->session->data['shipping_method']);
 				unset($this->session->data['shipping_methods']);
@@ -379,6 +380,10 @@ class ControllerCheckoutCart extends Controller {
 				}
 
 				$json['total'] = sprintf($this->language->get('text_items'), $this->cart->countProducts() + (isset($this->session->data['vouchers']) ? count($this->session->data['vouchers']) : 0), $this->currency->format($total));
+
+				$json['total2'] = sprintf($this->language->get('text_items2'), $this->cart->countProducts() + (isset($this->session->data['vouchers']) ? count($this->session->data['vouchers']) : 0), $this->currency->format($total));
+				$json['total3'] = sprintf($this->language->get('text_items3'),$this->cart->countProducts() + (isset($this->session->data['vouchers']) ? count($this->session->data['vouchers']) : 0), $this->currency->format($total));
+
 			} else {
 				$json['redirect'] = str_replace('&amp;', '&', $this->url->link('product/product', 'product_id=' . $this->request->post['product_id']));
 			}
@@ -468,6 +473,9 @@ class ControllerCheckoutCart extends Controller {
 			}
 
 			$json['total'] = sprintf($this->language->get('text_items'), $this->cart->countProducts() + (isset($this->session->data['vouchers']) ? count($this->session->data['vouchers']) : 0), $this->currency->format($total));
+
+			$json['total2'] = sprintf($this->language->get('text_items2'), $this->cart->countProducts() + (isset($this->session->data['vouchers']) ? count($this->session->data['vouchers']) : 0), $this->currency->format($total));
+			$json['total3'] = sprintf($this->language->get('text_items3'),$this->cart->countProducts() + (isset($this->session->data['vouchers']) ? count($this->session->data['vouchers']) : 0), $this->currency->format($total));
 		}
 
 		$this->response->addHeader('Content-Type: application/json');

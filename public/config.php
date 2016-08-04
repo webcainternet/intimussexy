@@ -1,6 +1,6 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'https://intimussexy.com.br/');
+define('HTTP_SERVER', 'http://intimussexy.com.br/');
 
 // HTTPS
 define('HTTPS_SERVER', 'https://intimussexy.com.br/');
